@@ -32,7 +32,7 @@ export default function Footer() {
             </li>
           </ul>
           <a
-            href="static/Vigor-for-Life-seminar.pdf"
+            href="/static/Vigor-for-Life-seminar.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"

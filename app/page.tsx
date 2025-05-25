@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../components/ui/button";
-import { LightBulbIcon, Cog6ToothIcon, DevicePhoneMobileIcon } from "@heroicons/react/24/outline";
+import { RiTeamFill } from "react-icons/ri";
+import { MdOutlineModelTraining } from "react-icons/md";
 
 export default function HomePage() {
   return (
@@ -9,9 +10,9 @@ export default function HomePage() {
       <section
         className="flex flex-col items-center justify-center flex-1 py-30 lg:py-50 text-center shadow-inner bg-transparent relative overflow-hidden"
         style={{
-          backgroundImage: "url(angryboss.jpg)",
+          backgroundImage: "url(/static/angryboss.jpg)",
           backgroundSize: "cover",
-          backgroundPosition: "center 30%", // Move image down
+          backgroundPosition: "center 30%",
         }}
       >
         <div className="absolute inset-0 bg-white/50 pointer-events-none" />
@@ -30,10 +31,7 @@ export default function HomePage() {
       <section className="max-w-3xl mx-auto py-20 px-4" id="about">
         <h2 className="text-3xl font-bold mb-4 text-gray-800">Managers and Supervisors</h2>
         <p className="text-gray-600 text-lg leading-relaxed">
-          Acme Consulting Group is dedicated to helping organizations achieve
-          their goals through strategic planning, operational excellence, and
-          innovative solutions. Our experienced consultants partner with you to
-          drive measurable results and lasting impact.
+Are you a manager or supervisor dealing with constant nitpicking and conflicts among employees? Do frequent communication breakdowns in the workplace leave you feeling exhausted and stressed? Managing workplace relationships can be incredibly challenging.
         </p>
       </section>
 
@@ -41,37 +39,39 @@ export default function HomePage() {
       <section className="bg-gray-100 py-20 px-4" id="services">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-gray-800 text-center">
-            Our Services
+            Manager Services
           </h2>
-          <div className="grid md:grid-cols-3 gap-10">
+          <p className="text-gray-700 text-lg max-w-3xl mx-auto mb-8 text-center">
+          We invite you to browse our site, where you’ll find detailed information about our approach, case studies, client testimonials, the services we offer, and free resources. Discover how we can assist you in achieving your goals.
+          </p>
+          <div className="grid md:grid-cols-2 gap-10 justify-center">
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
-              <LightBulbIcon className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
-              <h3 className="text-xl font-bold mb-2 text-gray-900">
-                Strategy Consulting
+              <RiTeamFill className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
+              <h3 className="text-xl font-bold mb-2 text-gray-900 text-center">
+                Coaching
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-center">
                 Develop winning strategies to drive growth and competitive
                 advantage.
               </p>
+              <div className="mt-4 flex flex-col items-center gap-2">
+                <a href="/about-jim/conflict-management" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Conflict Management</a>
+                <a href="/about-jim/employee-productivity" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Employee Productivity</a>
+              </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
-              <Cog6ToothIcon className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
-              <h3 className="text-xl font-bold mb-2 text-gray-900">
-                Operations Improvement
+              <MdOutlineModelTraining className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
+              <h3 className="text-xl font-bold mb-2 text-gray-900 text-center">
+                Training
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-center">
                 Optimize processes and increase efficiency across your
                 organization.
               </p>
-            </div>
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
-              <DevicePhoneMobileIcon className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
-              <h3 className="text-xl font-bold mb-2 text-gray-900">
-                Digital Transformation
-              </h3>
-              <p className="text-gray-600">
-                Leverage technology to innovate and future-proof your business.
-              </p>
+              <div className="mt-4 flex flex-col items-center gap-2">
+                <a href="/about-jim/unlocking-team-dynamics" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Unlocking Team Dynamics</a>
+                <a href="/about-jim/personal-influence" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Personal Influence</a>
+              </div>
             </div>
           </div>
         </div>
@@ -85,29 +85,6 @@ export default function HomePage() {
         <Button className="px-10 py-5 text-lg font-semibold shadow-lg hover:scale-105 transition" asChild>
           <a href="#contact">Get in Touch</a>
         </Button>
-      </section>
-
-      {/* Contact Section */}
-      <section className="max-w-3xl mx-auto py-20 px-4" id="contact">
-        <h2 className="text-3xl font-bold mb-4 text-gray-800">Contact Us</h2>
-        <p className="text-gray-600 mb-4 text-lg">
-          Email:{" "}
-          <a
-            href="mailto:info@acmeconsulting.com"
-            className="text-blue-600 underline"
-          >
-            info@acmeconsulting.com
-          </a>
-        </p>
-        <p className="text-gray-600 text-lg">
-          Phone:{" "}
-          <a
-            href="tel:+1234567890"
-            className="text-blue-600 underline"
-          >
-            +1 (234) 567-890
-          </a>
-        </p>
       </section>
     </div>
   );
