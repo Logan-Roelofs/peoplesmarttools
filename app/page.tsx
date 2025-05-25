@@ -10,7 +10,7 @@ export default function HomePage() {
       <section
         className="flex flex-col items-center justify-center flex-1 py-30 lg:py-50 text-center shadow-inner bg-transparent relative overflow-hidden"
         style={{
-          backgroundImage: "url(/static/angryboss.jpg)",
+          backgroundImage: "url(static/angryboss.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center 30%",
         }}
@@ -86,6 +86,7 @@ Are you a manager or supervisor dealing with constant nitpicking and conflicts a
           <a href="#contact">Get in Touch</a>
         </Button>
       </section>
+
     </div>
   );
 }
