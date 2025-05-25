@@ -4,49 +4,71 @@ import { LightBulbIcon, Cog6ToothIcon, DevicePhoneMobileIcon } from "@heroicons/
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-green-100 via-white to-gray-100">
+    <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center flex-1 py-24 text-center shadow-inner bg-transparent">
-        <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
-          <span className="bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">
-            <span className="text-gray-800">People</span> Smart <span className="text-gray-800">Tools</span> 
-          </span>
-        </h1>
-        <p className="text-xl md:text-2xl mb-10 text-gray-700 max-w-2xl">
-          Empowering your business with expert solutions. 
-        </p>
+      <section
+        className="flex flex-col items-center justify-center flex-1 py-30 lg:py-50 text-center shadow-inner bg-transparent relative overflow-hidden"
+        style={{
+          backgroundImage: "url(angryboss.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center 30%", // Move image down
+        }}
+      >
+        <div className="absolute inset-0 bg-white/50 pointer-events-none" />
+        <div className="relative z-10">
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
+            <span className="bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">
+              <span className="text-gray-800">People</span> Smart{" "}
+              <span className="text-gray-800">Tools</span>
+            </span>
+          </h1>
+          <p className="text-xl md:text-2xl mb-10 text-gray-700 max-w-2xl"> Is your organization facing relationship challenges?</p>
+        </div>
       </section>
 
       {/* About Section */}
       <section className="max-w-3xl mx-auto py-20 px-4" id="about">
-        <h2 className="text-3xl font-bold mb-4 text-gray-800">About Us</h2>
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">Managers and Supervisors</h2>
         <p className="text-gray-600 text-lg leading-relaxed">
-          Acme Consulting Group is dedicated to helping organizations achieve their goals through strategic planning, operational excellence, and innovative solutions. Our experienced consultants partner with you to drive measurable results and lasting impact.
+          Acme Consulting Group is dedicated to helping organizations achieve
+          their goals through strategic planning, operational excellence, and
+          innovative solutions. Our experienced consultants partner with you to
+          drive measurable results and lasting impact.
         </p>
       </section>
 
       {/* Services Section */}
       <section className="bg-gray-100 py-20 px-4" id="services">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-gray-800 text-center">Our Services</h2>
+          <h2 className="text-3xl font-bold mb-10 text-gray-800 text-center">
+            Our Services
+          </h2>
           <div className="grid md:grid-cols-3 gap-10">
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
               <LightBulbIcon className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Strategy Consulting</h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">
+                Strategy Consulting
+              </h3>
               <p className="text-gray-600">
-                Develop winning strategies to drive growth and competitive advantage.
+                Develop winning strategies to drive growth and competitive
+                advantage.
               </p>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
               <Cog6ToothIcon className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Operations Improvement</h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">
+                Operations Improvement
+              </h3>
               <p className="text-gray-600">
-                Optimize processes and increase efficiency across your organization.
+                Optimize processes and increase efficiency across your
+                organization.
               </p>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
               <DevicePhoneMobileIcon className="h-10 w-10 text-primary mb-4 mx-auto group-hover:scale-110 transition" />
-              <h3 className="text-xl font-bold mb-2 text-gray-900">Digital Transformation</h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">
+                Digital Transformation
+              </h3>
               <p className="text-gray-600">
                 Leverage technology to innovate and future-proof your business.
               </p>
@@ -69,10 +91,22 @@ export default function HomePage() {
       <section className="max-w-3xl mx-auto py-20 px-4" id="contact">
         <h2 className="text-3xl font-bold mb-4 text-gray-800">Contact Us</h2>
         <p className="text-gray-600 mb-4 text-lg">
-          Email: <a href="mailto:info@acmeconsulting.com" className="text-blue-600 underline">info@acmeconsulting.com</a>
+          Email:{" "}
+          <a
+            href="mailto:info@acmeconsulting.com"
+            className="text-blue-600 underline"
+          >
+            info@acmeconsulting.com
+          </a>
         </p>
         <p className="text-gray-600 text-lg">
-          Phone: <a href="tel:+1234567890" className="text-blue-600 underline">+1 (234) 567-890</a>
+          Phone:{" "}
+          <a
+            href="tel:+1234567890"
+            className="text-blue-600 underline"
+          >
+            +1 (234) 567-890
+          </a>
         </p>
       </section>
     </div>
