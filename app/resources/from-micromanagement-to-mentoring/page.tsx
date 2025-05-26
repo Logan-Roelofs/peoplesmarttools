@@ -129,7 +129,7 @@ export default function FromMicromanagementToMentoringPage() {
               For over 30 years, Jim has provided personal skills management training, coaching, and consulting to a wide variety of businesses and municipalities. People Smart Tools specializes in helping people work well with people. Owners and managers call on us when they know they are not getting the best out of their team.
             </p>
             <Button asChild>
-              <Link href="/contact-us">
+              <Link href="/contact">
                 Contact Us
               </Link>
             </Button>
