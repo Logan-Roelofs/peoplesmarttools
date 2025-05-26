@@ -37,19 +37,19 @@ const navigationLinks = [
     children: [
       {
         title: "Conflict Management",
-        href: "/manager-services/conflict-management",
+        href: "/conflict-management",
       },
       {
         title: "Employee Productivity",
-        href: "/manager-services/employee-productivity",
+        href: "/employee-productivity",
       },
       {
         title: "Unlocking Team Dynamics",
-        href: "/manager-services/unlocking-team-dynamics",
+        href: "/unlocking-team-dynamics",
       },
       {
         title: "Personal Influence",
-        href: "/manager-services/personal-influence",
+        href: "/personal-influence",
       },
     ],
   },
@@ -74,7 +74,7 @@ export function Header() {
         <div className="flex items-center space-x-4">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="static/logopeoplesmarttools.webp"
+              src="/static/Work-Smart-Mgr-Coach.png"
               alt="PeopleSmartTools Logo"
               width={671}
               height={190}

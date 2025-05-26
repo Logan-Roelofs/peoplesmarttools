@@ -35,6 +35,17 @@ Are you a manager or supervisor dealing with constant nitpicking and conflicts a
         </p>
       </section>
 
+      {/* How We Help Section */}
+      <section className="max-w-3xl mx-auto py-20 px-4" id="how-we-help">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">How We Help</h2>
+        <p className="text-gray-600 text-lg leading-relaxed mb-4">
+          At People Smart Tools, we specialize in empowering managers of businesses and municipalities to enhance their influence with their staff. Owners and managers turn to us when they realize their team isn’t performing at its best. We assist in selecting, developing, and retaining outstanding employees who are fully engaged.
+        </p>
+        <p className="text-gray-600 text-lg leading-relaxed">
+          Our coaching and training programs focus on developing workplace interpersonal communication skills, helping managers improve their influence over those they supervise. When workplace relationships are strong, employees are engaged and contribute significantly to the success of their assignments.
+        </p>
+      </section>
+
       {/* Services Section */}
       <section className="bg-gray-100 py-20 px-4" id="services">
         <div className="max-w-5xl mx-auto">
@@ -51,12 +62,11 @@ Are you a manager or supervisor dealing with constant nitpicking and conflicts a
                 Coaching
               </h3>
               <p className="text-gray-600 text-center">
-                Develop winning strategies to drive growth and competitive
-                advantage.
+                Personalized, one-on-one guidance to help managers and supervisors overcome challenges, build confidence, and unlock their full leadership potential. Our coaching empowers you to navigate complex team dynamics, improve communication, and achieve lasting results for your organization.
               </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/about-jim/conflict-management" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Conflict Management</a>
-                <a href="/about-jim/employee-productivity" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Employee Productivity</a>
+                <a href="/about-jim/conflict-management" className="text-primary font-semibold underline hover:text-primary/80 transition">Conflict Management</a>
+                <a href="/about-jim/employee-productivity" className="text-primary font-semibold underline hover:text-primary/80 transition">Employee Productivity</a>
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
@@ -65,16 +75,51 @@ Are you a manager or supervisor dealing with constant nitpicking and conflicts a
                 Training
               </h3>
               <p className="text-gray-600 text-center">
-                Optimize processes and increase efficiency across your
-                organization.
+                Interactive workshops and practical training sessions designed to strengthen your team’s interpersonal skills, boost collaboration, and foster a positive workplace culture. Our programs equip your staff with proven tools to resolve conflict, enhance productivity, and drive organizational success.
               </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/about-jim/unlocking-team-dynamics" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Unlocking Team Dynamics</a>
-                <a href="/about-jim/personal-influence" className="inline-block px-4 py-2 rounded-lg bg-primary text-white font-semibold shadow hover:bg-primary/80 transition">Personal Influence</a>
+                <a href="/about-jim/unlocking-team-dynamics" className="text-primary font-semibold underline hover:text-primary/80 transition">Unlocking Team Dynamics</a>
+                <a href="/about-jim/personal-influence" className="text-primary font-semibold underline hover:text-primary/80 transition">Personal Influence</a>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Why a Coach for Managers Section */}
+      <section className="max-w-3xl mx-auto py-20 px-4" id="why-coach">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">Why a Coach for Managers?</h2>
+        <h3 className="text-2xl font-semibold mb-2 text-gray-700">What is a Manager’s Coach?</h3>
+        <p className="text-gray-600 text-lg leading-relaxed mb-6">
+          A Manager’s Coach is a professional who helps managers work smart and live fulfilled.
+        </p>
+        <h3 className="text-2xl font-semibold mb-2 text-gray-700">Is a Manager’s Coach Right for Me?</h3>
+        <p className="text-gray-600 text-lg leading-relaxed mb-6">
+          Managers who are highly successful often have a coach. Coaching helps align your goals and emotions, providing benefits that last for many years and aiding in upward mobility. Everyone, even those already successful, benefits from a coach.
+        </p>
+        <h3 className="text-2xl font-semibold mb-2 text-gray-700">Jim’s Coaching Qualifications</h3>
+        <p className="text-gray-600 text-lg leading-relaxed mb-6">
+          Jim earned a Master’s Degree in Science and a Bachelor’s Degree in Biology & Psychology from Western State Colorado University in Gunnison, Colorado. He holds two designations from Target Training International®: Success Insights® DISC Certified and Success Insights® Driving Forces Certified. These certifications require biannual training updates. Additionally, he is a Certified Health Coach with Dr. Sears Wellness Institute.
+        </p>
+        <h3 className="text-2xl font-semibold mb-2 text-gray-700">Jim’s Coaching Approach</h3>
+        <p className="text-gray-600 text-lg leading-relaxed mb-6">
+          Jim’s holistic approach revolves around understanding your natural skills, communication style, and driving forces (values). Using state-of-the-art assessment tools and active listening, Jim gains a comprehensive picture of your strengths and concerns.
+        </p>
+        <p className="text-gray-600 text-lg leading-relaxed mb-6">
+          Together, you will plan the scope and process of the project. A summary of the plans is crafted into a Letter of Engagement, which aligns your goals and serves as a guide. Regular meetings will help you accomplish your desired outcomes. Jim is available for phone calls, texts, and in-person meetings as needed. Fees are charged by the project, not hourly.
+        </p>
+      </section>
+
+      {/* About Jim Rooney – The Manager’s Coach Section */}
+      <section className="max-w-3xl mx-auto py-20 px-4" id="about-jim">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">About Jim Rooney – The Manager’s Coach</h2>
+        <p className="text-gray-600 text-lg leading-relaxed mb-6">
+          For over 30 years, Jim has provided personal skills management training, coaching, and consulting to a wide variety of businesses and municipalities. People Smart Tools specializes in helping people work well with people. Owners and managers call on us when they know they are not getting the best out of their team.
+        </p>
+        <a href="/about-jim" className="text-primary font-semibold underline hover:text-primary/80 transition mb-8 inline-block">Learn More About Jim</a>
+        <p className="text-gray-600 text-lg leading-relaxed mt-6">
+          Still not sure? Get in touch to learn more about how Jim and People Smart Tools can help you transform your team dynamics and enhance workplace productivity.
+        </p>
       </section>
 
       {/* Call to Action */}
