@@ -74,7 +74,7 @@ export function Header() {
         <div className="flex items-center space-x-4">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/static/Work-Smart-Mgr-Coach.png"
+              src="static/Work-Smart-Mgr-Coach.png"
               alt="PeopleSmartTools Logo"
               width={671}
               height={190}

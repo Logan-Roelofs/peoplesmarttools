@@ -139,7 +139,7 @@ export default function NavigatingEffectiveCommunicationWithDiscPage() {
         <div className="flex flex-col md:flex-row items-center gap-6">
           {/* Jim's Image */}
           <Image
-            src="/static/Jim.webp"
+            src="staic/Jim.webp"
             alt="Jim - People Smart Tools"
             width={160}
             height={160}

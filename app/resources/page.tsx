@@ -113,7 +113,7 @@ export default function ResourcesPage() {
             The 7 Deadly Mistakes Managers Make
           </h2>
           <Image
-            src="/static/The-7-deadly-mistakes-managers-make.png"
+            src="staic/The-7-deadly-mistakes-managers-make.png"
             alt="The 7 Deadly Mistakes Managers Make book cover"
             width={192}
             height={256}
@@ -128,7 +128,7 @@ export default function ResourcesPage() {
             This report isn’t just informative; it’s a treasure trove of modern managerial wisdom. Click below to grab your free copy and level up your management game!
           </p>
           <Button className="px-8 py-4 text-lg font-semibold shadow-lg mb-2" asChild>
-            <a href="/static/The-7-deadly-mistakes-managers-make.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="staic/The-7-deadly-mistakes-managers-make.pdf" target="_blank" rel="noopener noreferrer">
               DOWNLOAD THE FREE REPORT NOW!
             </a>
           </Button>
@@ -141,7 +141,7 @@ export default function ResourcesPage() {
             9 Points of Influence for City Managers
           </h2>
           <Image
-            src="/static/9-Points-of-influence-for-city-managers.jpg"
+            src="staic/9-Points-of-influence-for-city-managers.jpg"
             alt="9 Points of Influence for City Managers book cover"
             width={192}
             height={256}
