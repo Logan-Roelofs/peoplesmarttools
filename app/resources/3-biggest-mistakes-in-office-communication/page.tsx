@@ -80,7 +80,7 @@ export default function ThreeBiggestMistakesPage() {
         <div className="flex flex-col md:flex-row items-center gap-6">
           {/* Jim's Image */}
           <Image
-            src="staic/Jim.webp"
+            src="static/Jim.webp"
             alt="Jim - People Smart Tools"
             width={160}
             height={160}

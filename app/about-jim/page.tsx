@@ -16,7 +16,7 @@ export default function AboutJimPage() {
           </div>
           <div className="flex-shrink-0">
             <Image
-              src="staic/Jim.webp"
+              src="static/Jim.webp"
               alt="Jim Rooney"
               width={224}
               height={224}
