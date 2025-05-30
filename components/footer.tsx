@@ -88,18 +88,7 @@ export default function Footer() {
             <div className="font-medium mb-1">Social Profiles</div>
             <div className="flex space-x-3">
               {/* Example social icons */}
-              <a href="#" aria-label="Facebook" className="hover:text-primary">
-                <svg
-                  width="22"
-                  height="22"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  className="text-primary transition-colors"
-                >
-                  <path d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 5 3.657 9.127 8.438 9.877v-6.987h-2.54v-2.89h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.632.771-1.632 1.562v1.875h2.773l-.443 2.89h-2.33v6.987C18.343 21.127 22 17 22 12" />
-                </svg>
-              </a>
-              <a href="#" aria-label="LinkedIn" className="hover:text-primary">
+              <a href="https://www.linkedin.com/in/jim-rooney-42b40310/" aria-label="LinkedIn" className="hover:text-primary">
                 <svg
                   width="22"
                   height="22"

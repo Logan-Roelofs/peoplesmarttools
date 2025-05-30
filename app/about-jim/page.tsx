@@ -144,7 +144,7 @@ export default function AboutJimPage() {
         <p className="text-gray-600 text-lg leading-relaxed mb-4">
           We all live by principles we hold dear. <span className="font-semibold">JIM’S GEMS</span> are concise, impactful aphorisms that I’ve distilled into a few powerful words. Applying these principles can bring benefits to both you and those around you.
         </p>
-<h3 className="text-xl font-semibold text-primary mb-2">JIM&#39;S GEMS</h3>
+        <h3 className="text-xl font-semibold text-primary mb-2"><span className="font-semibold"><Link href="/resources/jims-gems" className="text-primary underline hover:text-primary/80 transition">JIM’S GEMS</Link></span></h3>
         {/* Placeholder for actual gems if you want to list them */}
       </section>
     </div>
