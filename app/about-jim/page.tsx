@@ -72,7 +72,7 @@ export default function AboutJimPage() {
           Influence is the central key in great careers. I get a lot of pleasure from learning and sharing nuggets with others and seeing them gain lifetime habits that make a difference.  I developed the People Smart Workshop ‘How to Improve Your Personal Influence’ specifically to help managers improve their influence with those they supervise by sharpening their personal skills.
         </p>
         <Link
-          href="/about-jim/personal-influence"
+          href="/personal-influence"
           className="text-primary font-semibold underline hover:text-primary/80 transition"
         >
           Click Here to Jump to Training - Personal Influence

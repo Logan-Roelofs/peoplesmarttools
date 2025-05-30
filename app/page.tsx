@@ -65,8 +65,8 @@ Are you a manager or supervisor dealing with constant nitpicking and conflicts a
                 Personalized, one-on-one guidance to help managers and supervisors overcome challenges, build confidence, and unlock their full leadership potential. Our coaching empowers you to navigate complex team dynamics, improve communication, and achieve lasting results for your organization.
               </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/about-jim/conflict-management" className="text-primary font-semibold underline hover:text-primary/80 transition">Conflict Management</a>
-                <a href="/about-jim/employee-productivity" className="text-primary font-semibold underline hover:text-primary/80 transition">Employee Productivity</a>
+                <a href="/conflict-management" className="text-primary font-semibold underline hover:text-primary/80 transition">Conflict Management</a>
+                <a href="/employee-productivity" className="text-primary font-semibold underline hover:text-primary/80 transition">Employee Productivity</a>
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
@@ -78,8 +78,8 @@ Are you a manager or supervisor dealing with constant nitpicking and conflicts a
                 Interactive workshops and practical training sessions designed to strengthen your team’s interpersonal skills, boost collaboration, and foster a positive workplace culture. Our programs equip your staff with proven tools to resolve conflict, enhance productivity, and drive organizational success.
               </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/about-jim/unlocking-team-dynamics" className="text-primary font-semibold underline hover:text-primary/80 transition">Unlocking Team Dynamics</a>
-                <a href="/about-jim/personal-influence" className="text-primary font-semibold underline hover:text-primary/80 transition">Personal Influence</a>
+                <a href="/unlocking-team-dynamics" className="text-primary font-semibold underline hover:text-primary/80 transition">Unlocking Team Dynamics</a>
+                <a href="/personal-influence" className="text-primary font-semibold underline hover:text-primary/80 transition">Personal Influence</a>
               </div>
             </div>
           </div>
