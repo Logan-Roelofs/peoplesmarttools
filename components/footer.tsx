@@ -31,17 +31,6 @@ export default function Footer() {
               <a href="#" className="hover:underline text-sm">About Jim</a>
             </li>
           </ul>
-          <a
-            href="static/Vigor-for-Life-seminar.pdf"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block"
-          >
-            <Button className="w-full" variant="default">
-              Download Vigor for Life seminar
-            </Button>
-          </a>
         </div>
         {/* Quick Links 2 */}
         <div>

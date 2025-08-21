@@ -27,7 +27,7 @@ export default function JimsGemsPage() {
           </p>
           <div className="mt-4">
             <Button asChild>
-              <a href="static/jims-gems.pdf" target="_blank" rel="noopener noreferrer" download>
+              <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/static/jims-gems.pdf`} target="_blank" rel="noopener noreferrer" download>
                 Download or Print PDF
               </a>
             </Button>
